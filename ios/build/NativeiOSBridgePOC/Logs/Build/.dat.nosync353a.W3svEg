@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>C26A3A8F-568F-4B75-99B8-9D109863C856</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C26A3A8F-568F-4B75-99B8-9D109863C856.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NativeiOSBridgePOC project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NativeiOSBridgePOC</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace NativeiOSBridgePOC with scheme NativeiOSBridgePOC and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>588072228.63861096</real>
+			<key>timeStoppedRecording</key>
+			<real>588072289.19822204</real>
+			<key>title</key>
+			<string>Building workspace NativeiOSBridgePOC with scheme NativeiOSBridgePOC and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>C26A3A8F-568F-4B75-99B8-9D109863C856</string>
+		</dict>
+		<key>F35DA627-F00E-482A-A414-83F664A1BBE2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F35DA627-F00E-482A-A414-83F664A1BBE2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NativeiOSBridgePOC project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NativeiOSBridgePOC</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace NativeiOSBridgePOC with scheme NativeiOSBridgePOC and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>588075480.04971397</real>
+			<key>timeStoppedRecording</key>
+			<real>588075519.92069805</real>
+			<key>title</key>
+			<string>Building workspace NativeiOSBridgePOC with scheme NativeiOSBridgePOC and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F35DA627-F00E-482A-A414-83F664A1BBE2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
