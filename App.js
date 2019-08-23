@@ -22,32 +22,20 @@ export default class App extends Component {
         cardNumber: '',
         data:''
     }
-   //myModuleEvt.addListener('sayHello', (data) => console.log(data))
-    myModuleEvt.addListener('sayHello', (data) => {this.setState({cardNumber:data.cardNumber})})
+    myModuleEvt.addListener('ScanCard', (data) => {this.setState({cardNumber:data.cardNumber})})
     
 }
-  
-  static navigationOptions = ({ navigation }) => ({
-    title: 'Scan Card',
-    
-    headerLeft:( 
-      <DrawerButton navigation={navigation}/>
-     )
-  });
-
    startCardScan = async() => {
     console.log('call-native')
     if(Platform.OS === 'ios'){
            NativeModules.ChangeViewBridge.changeToNativeView('Bye :)');
     }
     else{
-      this.callToAndroidWayFind()
+      this.changeToNativeAndroidView()
     }
    }
-  
 
-  render() {
-    
+  render() { 
     return (
       <View style={styles.container}>
         <TouchableOpacity  onPress={this.startCardScan}>

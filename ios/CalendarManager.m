@@ -33,11 +33,11 @@ RCT_EXPORT_MODULE();
 //  [self sendEventWithName:@"EventReminder" body:@{@"name": eventName}];
 //}
 - (NSArray<NSString *> *)supportedEvents {
-  return @[@"sayHello"];
+  return @[@"ScanCard"];
 }
 
 - (void)tellJS:(NSString *)cardData {
-  [self sendEventWithName:@"sayHello" body:@{@"cardNumber": cardData}];
+  [self sendEventWithName:@"ScanCard" body:@{@"cardNumber": cardData}];
 }
 
 @end

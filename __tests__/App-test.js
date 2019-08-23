@@ -11,8 +11,11 @@ import {NativeEventEmitter} from 'react-native';
 import renderer from 'react-test-renderer';
 import { JestEnvironment } from '@jest/environment';
 
+
 it('renders correctly', () => {
-  renderer.create(<App />);
+  let scanData =  renderer.create(<App />).getInstance();
+  scanData.startCardScan();
+  console.log(scanData.startCardScan());
 });
 
 jest.mock('NativeEventEmitter');
