@@ -21,23 +21,13 @@ RCT_EXPORT_MODULE();
   return sharedInstance;
 }
 
-
-//- (NSArray<NSString *> *)supportedEvents
-//{
-//  return @[@"EventReminder"];
-//}
-//
-//- (void)calendarEventReminderReceived:(NSNotification *)notification
-//{
-//  NSString *eventName = notification.userInfo[@"name"];
-//  [self sendEventWithName:@"EventReminder" body:@{@"name": eventName}];
-//}
 - (NSArray<NSString *> *)supportedEvents {
   return @[@"ScanCard"];
 }
 
-- (void)tellJS:(NSString *)cardData {
-  [self sendEventWithName:@"ScanCard" body:@{@"cardNumber": cardData}];
+//Calling this method on clicking save card from the viewcontroller.h
+- (void)tellJS:(NSMutableArray *)cardData{
+  [self sendEventWithName:@"ScanCard" body:@{@"cardNumber": cardData[0],@"validThru":cardData[1],@"cvv":cardData[2]}];
 }
 
 @end
