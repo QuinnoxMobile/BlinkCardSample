@@ -34,23 +34,40 @@ export default class App extends Component {
   render() { 
     return (
       <View style={styles.container}>
-        <TouchableOpacity style={styles.buttonStyle}  onPress={this.startCardScan}>
-            <Text style={styles.buttonTextStyle}>Start Card Scan!</Text>
-          </TouchableOpacity>
-       <View style={{justifyContent:'flex-start'}}>
        <View style={{flexDirection:'row'}}>
             <Text style={styles.textStyle}>CardNumber</Text>
-            <Text style={styles.textStyle}>{this.state.cardNumber}</Text>
+            <Text style={{
+              color: 'black',
+              fontWeight: 'bold',
+              fontSize: 16,
+              padding:20
+   }}>{this.state.cardNumber}</Text>
           </View>
           <View style={{flexDirection:'row'}}> 
             <Text style={styles.textStyle}>Valid Thru</Text>
-            <Text style={styles.textStyle}>{this.state.validThru}</Text>
+            <Text style={{
+              color: 'black',
+              fontWeight: 'bold',
+              fontSize: 16,
+              marginLeft:21,
+              padding:20}}>
+              {this.state.validThru}</Text>
           </View>
           <View style={{flexDirection:'row'}}>
             <Text style={styles.textStyle}>CVV</Text>
-            <Text style={styles.textStyle}>{this.state.cvv}</Text>
+            <Text style={{
+              color: 'black',
+              fontWeight: 'bold',
+              fontSize: 16,
+              marginLeft:66,
+              padding:20}}>
+              {this.state.cvv}</Text>
           </View>
-       </View>    
+       <View style={{paddingHorizontal:100,paddingTop:20}}>
+      <TouchableOpacity style={styles.buttonStyle}  onPress={this.startCardScan}>
+            <Text style={styles.buttonTextStyle}>Start Card Scan!</Text>
+          </TouchableOpacity>
+      </View> 
        </View>
     )
   }
@@ -60,7 +77,7 @@ const styles = StyleSheet.create({
   container:{
     flex:1,
     justifyContent:'center',
-    alignItems:'center',
+    alignItems:'flex-start',
     backgroundColor:'#fcfcff'
   },
   buttonStyle: {
@@ -78,16 +95,9 @@ const styles = StyleSheet.create({
 
   textStyle: {
     color: 'black',
-   justifyContent:'flex-start',
+    justifyContent:'flex-start',
     fontWeight: 'bold',
     fontSize: 16,
     padding:20,
-  },
-  cardValuesTextStyle:{
-    color: 'black',
-    justifyContent:'center',
-     fontWeight: 'bold',
-     fontSize: 16,
-     padding:20,
   }
 })

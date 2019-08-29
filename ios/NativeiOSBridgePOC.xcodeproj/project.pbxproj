@@ -22,7 +22,7 @@
 		922872E4230A88C200290CD8 /* Microblink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922872E3230A88C200290CD8 /* Microblink.framework */; };
 		922872EA230A892100290CD8 /* ChangeViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 922872E9230A892100290CD8 /* ChangeViewBridge.m */; };
 		922872ED230AACF300290CD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922872EC230AACF300290CD8 /* ViewController.m */; };
-		924B67EC230D42C600992979 /* CalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 924B67EB230D42C600992979 /* CalendarManager.m */; };
+		924B67EC230D42C600992979 /* CardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 924B67EB230D42C600992979 /* CardManager.m */; };
 		E164C7F9B77821CC8665573A /* libPods-NativeiOSBridgePOC-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7667EBD6F1FC0D2634CD335D /* libPods-NativeiOSBridgePOC-tvOS.a */; };
 		E474EBA28C3E8A0DE1D63F10 /* libPods-NativeiOSBridgePOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 258980F2FFF6B10E5FDCC2DE /* libPods-NativeiOSBridgePOC.a */; };
 /* End PBXBuildFile section */
@@ -71,8 +71,8 @@
 		922872E9230A892100290CD8 /* ChangeViewBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeViewBridge.m; sourceTree = "<group>"; };
 		922872EB230AACF300290CD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		922872EC230AACF300290CD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		924B67EA230D42C600992979 /* CalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarManager.h; sourceTree = "<group>"; };
-		924B67EB230D42C600992979 /* CalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarManager.m; sourceTree = "<group>"; };
+		924B67EA230D42C600992979 /* CardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardManager.h; sourceTree = "<group>"; };
+		924B67EB230D42C600992979 /* CardManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardManager.m; sourceTree = "<group>"; };
 		9F6837B03946D8AD07759B81 /* Pods-NativeiOSBridgePOC-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeiOSBridgePOC-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeiOSBridgePOC-tvOSTests/Pods-NativeiOSBridgePOC-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8921E7B191B5D5D4F9EA80B /* Pods-NativeiOSBridgePOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeiOSBridgePOCTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeiOSBridgePOCTests/Pods-NativeiOSBridgePOCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B56F0F575D284577C62984A2 /* Pods-NativeiOSBridgePOC-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeiOSBridgePOC-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NativeiOSBridgePOC-tvOS/Pods-NativeiOSBridgePOC-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,8 +151,8 @@
 				922872E9230A892100290CD8 /* ChangeViewBridge.m */,
 				922872EB230AACF300290CD8 /* ViewController.h */,
 				922872EC230AACF300290CD8 /* ViewController.m */,
-				924B67EA230D42C600992979 /* CalendarManager.h */,
-				924B67EB230D42C600992979 /* CalendarManager.m */,
+				924B67EA230D42C600992979 /* CardManager.h */,
+				924B67EB230D42C600992979 /* CardManager.m */,
 			);
 			name = NativeiOSBridgePOC;
 			sourceTree = "<group>";
@@ -592,7 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924B67EC230D42C600992979 /* CalendarManager.m in Sources */,
+				924B67EC230D42C600992979 /* CardManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				922872ED230AACF300290CD8 /* ViewController.m in Sources */,

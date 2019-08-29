@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CalendarManager : RCTEventEmitter <RCTBridgeModule>
+@interface CardManager : RCTEventEmitter <RCTBridgeModule>
 
 -(void)tellJS:(NSMutableArray *)cardData;
 

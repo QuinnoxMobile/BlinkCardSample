@@ -6,14 +6,14 @@
 //  Copyright © 2019 Facebook. All rights reserved.
 //
 
-#import "CalendarManager.h"
+#import "CardManager.h"
 
-@implementation CalendarManager
+@implementation CardManager
 
 RCT_EXPORT_MODULE();
 
 + (id)allocWithZone:(NSZone *)zone {
-  static CalendarManager *sharedInstance = nil;
+  static CardManager *sharedInstance = nil;
   static dispatch_once_t onceToken;
   dispatch_once(&onceToken, ^{
     sharedInstance = [super allocWithZone:zone];

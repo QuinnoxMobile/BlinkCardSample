@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <Microblink/Microblink.h>
 #import "NativeiOSBridgePOC/AppDelegate.h"
-#import "CalendarManager.h"
+#import "CardManager.h"
 
 
 @interface ViewController ()<MBBlinkCardOverlayViewControllerDelegate>
@@ -59,7 +59,7 @@
 - (IBAction)saveCard:(id)sender {
   AppDelegate * appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
   [appDelegate goToReactNative];
-  CalendarManager * data = [CalendarManager allocWithZone:nil];
+  CardManager * data = [CardManager allocWithZone:nil];
   [data tellJS:self.cardArray];
 }
 
